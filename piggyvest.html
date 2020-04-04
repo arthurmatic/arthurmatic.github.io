@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link type="text/css" rel="stylesheet" href="piggyvest.css"> -->
+    <title>Piggyvest Signup</title>
+    <style>
+        body {
+    background-color: #ADD8E6;
+    
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+header {
+    margin: 3em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    background-color: snow;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.caption {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2.5em;
+    margin-left: 4.2em;
+    margin-right: 4.2em;
+}
+h2, p {
+    margin: 0;
+    font-family: sans-serif;
+}
+#h2 {
+    font-size: 1.5rem;
+    color: #083e9e;
+
+}
+#p {
+    font-size: .875rem;
+    color: #4a5568;
+}
+.formInput{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+input {
+    padding: 20px;
+    font-size: .9rem;
+    border-radius: 5px;
+    background-color: #edf2f7;
+    border: 0 solid snow;
+    color: #1a202c;
+}
+select{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: .9rem;
+    background-color: #edf2f7;
+    color: #1a202c;
+    border: 0 solid snow;
+    width: 100%;
+}
+option {
+    font-family: sans-serif;
+    font-size: .9rem;
+    background-color: #edf2f7;
+    color: #1a202c;
+    
+}
+
+label {
+    font-size: .75rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: .7em;
+    color: #4a5568;
+}
+button{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    color: snow;
+    background-color: #083e9e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0 solid #083e9e;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #062863;
+}
+a {
+    text-decoration: none;
+}
+#note {
+    color: snow;
+    font-size: .875rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 4em;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="piggyvest.com"><img alt="piggyvest logo" src="piggyvest-logo.svg"></a>
+        </header>
+        <form>
+            <div class="caption" class="formInput">
+                <h2 id="h2">Create a Secure Account</h2>
+                <p id="p">Welcome to the future of Savings & Investments</p>
+            </div>
+            <div class="formInput">
+                <label>Full Name</label>
+                <input type="text" placeholder="Full Name">
+            </div>
+            <div class="formInput">
+                <label>Email <Address></Address></label>
+                <input type="email" placeholder="Email Address">  
+            </div>
+            <div class="formInput">
+                <label>Phone Number</label>
+                <input type="text" placeholder="Phone Number">
+            </div>
+            <div class="formInput">
+                <label>Password</label>
+                <input type="password" placeholder="Password">
+            </div>
+            <div class="formInput">
+                <label>Referrer Phone or Promo Code (Optional)</label>
+                <input type="text" placeholder="Referrer Phone or Code">
+            </div>
+            <div class="formInput">
+                <label>How Did You Hear About Us? (Optional)</label>
+                <select>
+                    <option>Click To Select<i class="fas fa-angle-down"></i></option>
+                    <option>Facebook</option>
+                    <option>Twitter</option>
+                    <option>Instagram</option>
+                    <option>Family/Friend/Coworker Referrer</option>
+                    <option>Google Search</option>
+                    <option>Google Store</option>
+                    <option>Online Blog</option>
+                    <option>Local Newspaper</option>
+                    <option>At an Event</option>
+                    <option>Other</option>
+                </select>
+        
+            </div>
+            <div class="formInput">
+                <button type="submit">CREATE ACCOUNT</button>
+            </div>
+        </form>
+        <div id="note">
+            <a>Already have an account? Log In</a>
+        </div>
+    </main>
+    
+</body>
+</html>
